@@ -7,20 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2537DA991D2D9CD700FAA8A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2537DA981D2D9CD700FAA8A8 /* AppDelegate.m */; };
-		2537DA9C1D2D9CD700FAA8A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2537DA9B1D2D9CD700FAA8A8 /* main.m */; };
-		2537DA9E1D2D9CD700FAA8A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2537DA9D1D2D9CD700FAA8A8 /* Assets.xcassets */; };
-		2537DAA11D2D9CD800FAA8A8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2537DA9F1D2D9CD800FAA8A8 /* MainMenu.xib */; };
+		2537DA9C1D2D9CD700FAA8A8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2537DA9B1D2D9CD700FAA8A8 /* main.cpp */; };
+		2537DAAF1D2D9EA900FAA8A8 /* Cloth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2537DAAB1D2D9EA900FAA8A8 /* Cloth.cpp */; };
+		2537DAB01D2D9EA900FAA8A8 /* LargeVM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2537DAAC1D2D9EA900FAA8A8 /* LargeVM.cpp */; };
+		2537DAB11D2D9EA900FAA8A8 /* ObjectMesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2537DAAD1D2D9EA900FAA8A8 /* ObjectMesh.cpp */; };
+		2537DAB21D2D9EA900FAA8A8 /* Particle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2537DAAE1D2D9EA900FAA8A8 /* Particle.cpp */; };
+		2537DABF1D2D9F1700FAA8A8 /* Shader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2537DABC1D2D9F1700FAA8A8 /* Shader.cpp */; };
+		2537DAC01D2D9F1700FAA8A8 /* Texture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2537DABD1D2D9F1700FAA8A8 /* Texture.cpp */; };
+		2537DAC11D2D9F1700FAA8A8 /* TrackBall.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2537DABE1D2D9F1700FAA8A8 /* TrackBall.cpp */; };
+		2537DAC41D2D9F2F00FAA8A8 /* fLightingShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 2537DAC21D2D9F2F00FAA8A8 /* fLightingShader.glsl */; };
+		2537DAC51D2D9F2F00FAA8A8 /* vLightingShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 2537DAC31D2D9F2F00FAA8A8 /* vLightingShader.glsl */; };
+		2537DAC91D2D9F4300FAA8A8 /* fShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 2537DAC61D2D9F4300FAA8A8 /* fShader.glsl */; };
+		2537DACA1D2D9F4300FAA8A8 /* vShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 2537DAC71D2D9F4300FAA8A8 /* vShader.glsl */; };
+		2537DACB1D2D9F4300FAA8A8 /* gShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 2537DAC81D2D9F4300FAA8A8 /* gShader.glsl */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2537DA941D2D9CD700FAA8A8 /* Cloth Model.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cloth Model.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2537DA971D2D9CD700FAA8A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		2537DA981D2D9CD700FAA8A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2537DA9B1D2D9CD700FAA8A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2537DA9D1D2D9CD700FAA8A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2537DAA01D2D9CD800FAA8A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2537DA9B1D2D9CD700FAA8A8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		2537DAA21D2D9CD800FAA8A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2537DAAB1D2D9EA900FAA8A8 /* Cloth.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Cloth.cpp; sourceTree = "<group>"; };
+		2537DAAC1D2D9EA900FAA8A8 /* LargeVM.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LargeVM.cpp; sourceTree = "<group>"; };
+		2537DAAD1D2D9EA900FAA8A8 /* ObjectMesh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ObjectMesh.cpp; sourceTree = "<group>"; };
+		2537DAAE1D2D9EA900FAA8A8 /* Particle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Particle.cpp; sourceTree = "<group>"; };
+		2537DAB51D2D9EF400FAA8A8 /* Shader.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Shader.hpp; sourceTree = "<group>"; };
+		2537DAB61D2D9EF400FAA8A8 /* Cloth.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Cloth.hpp; sourceTree = "<group>"; };
+		2537DAB71D2D9EF400FAA8A8 /* Texture.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Texture.hpp; sourceTree = "<group>"; };
+		2537DAB81D2D9EF400FAA8A8 /* Particle.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Particle.hpp; sourceTree = "<group>"; };
+		2537DAB91D2D9EF400FAA8A8 /* LargeVM.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = LargeVM.hpp; sourceTree = "<group>"; };
+		2537DABA1D2D9EF400FAA8A8 /* TrackBall.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TrackBall.hpp; sourceTree = "<group>"; };
+		2537DABB1D2D9EF400FAA8A8 /* ObjectMesh.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ObjectMesh.hpp; sourceTree = "<group>"; };
+		2537DABC1D2D9F1700FAA8A8 /* Shader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Shader.cpp; sourceTree = "<group>"; };
+		2537DABD1D2D9F1700FAA8A8 /* Texture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Texture.cpp; sourceTree = "<group>"; };
+		2537DABE1D2D9F1700FAA8A8 /* TrackBall.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TrackBall.cpp; sourceTree = "<group>"; };
+		2537DAC21D2D9F2F00FAA8A8 /* fLightingShader.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fLightingShader.glsl; sourceTree = "<group>"; };
+		2537DAC31D2D9F2F00FAA8A8 /* vLightingShader.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = vLightingShader.glsl; sourceTree = "<group>"; };
+		2537DAC61D2D9F4300FAA8A8 /* fShader.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fShader.glsl; sourceTree = "<group>"; };
+		2537DAC71D2D9F4300FAA8A8 /* vShader.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = vShader.glsl; sourceTree = "<group>"; };
+		2537DAC81D2D9F4300FAA8A8 /* gShader.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gShader.glsl; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				2537DA961D2D9CD700FAA8A8 /* Cloth Model */,
+				2537DAA81D2D9DC400FAA8A8 /* Frameworks */,
 				2537DA951D2D9CD700FAA8A8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,22 +78,76 @@
 		2537DA961D2D9CD700FAA8A8 /* Cloth Model */ = {
 			isa = PBXGroup;
 			children = (
-				2537DA971D2D9CD700FAA8A8 /* AppDelegate.h */,
-				2537DA981D2D9CD700FAA8A8 /* AppDelegate.m */,
-				2537DA9D1D2D9CD700FAA8A8 /* Assets.xcassets */,
-				2537DA9F1D2D9CD800FAA8A8 /* MainMenu.xib */,
-				2537DAA21D2D9CD800FAA8A8 /* Info.plist */,
-				2537DA9A1D2D9CD700FAA8A8 /* Supporting Files */,
+				2537DAA91D2D9E2300FAA8A8 /* Headers */,
+				2537DA9B1D2D9CD700FAA8A8 /* main.cpp */,
+				2537DAAB1D2D9EA900FAA8A8 /* Cloth.cpp */,
+				2537DAAC1D2D9EA900FAA8A8 /* LargeVM.cpp */,
+				2537DAAD1D2D9EA900FAA8A8 /* ObjectMesh.cpp */,
+				2537DAAE1D2D9EA900FAA8A8 /* Particle.cpp */,
+				2537DAAA1D2D9E4A00FAA8A8 /* Shaders */,
+				2537DA9A1D2D9CD700FAA8A8 /* Supporting Source */,
 			);
 			path = "Cloth Model";
 			sourceTree = "<group>";
 		};
-		2537DA9A1D2D9CD700FAA8A8 /* Supporting Files */ = {
+		2537DA9A1D2D9CD700FAA8A8 /* Supporting Source */ = {
 			isa = PBXGroup;
 			children = (
-				2537DA9B1D2D9CD700FAA8A8 /* main.m */,
+				2537DABC1D2D9F1700FAA8A8 /* Shader.cpp */,
+				2537DABD1D2D9F1700FAA8A8 /* Texture.cpp */,
+				2537DABE1D2D9F1700FAA8A8 /* TrackBall.cpp */,
+				2537DAA21D2D9CD800FAA8A8 /* Info.plist */,
 			);
-			name = "Supporting Files";
+			name = "Supporting Source";
+			sourceTree = "<group>";
+		};
+		2537DAA81D2D9DC400FAA8A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2537DAA91D2D9E2300FAA8A8 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				2537DAB51D2D9EF400FAA8A8 /* Shader.hpp */,
+				2537DAB61D2D9EF400FAA8A8 /* Cloth.hpp */,
+				2537DAB71D2D9EF400FAA8A8 /* Texture.hpp */,
+				2537DAB81D2D9EF400FAA8A8 /* Particle.hpp */,
+				2537DAB91D2D9EF400FAA8A8 /* LargeVM.hpp */,
+				2537DABA1D2D9EF400FAA8A8 /* TrackBall.hpp */,
+				2537DABB1D2D9EF400FAA8A8 /* ObjectMesh.hpp */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		2537DAAA1D2D9E4A00FAA8A8 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				2537DAB31D2D9EB300FAA8A8 /* Physical Lighting */,
+				2537DAB41D2D9EBE00FAA8A8 /* Normal Mapper */,
+			);
+			name = Shaders;
+			sourceTree = "<group>";
+		};
+		2537DAB31D2D9EB300FAA8A8 /* Physical Lighting */ = {
+			isa = PBXGroup;
+			children = (
+				2537DAC31D2D9F2F00FAA8A8 /* vLightingShader.glsl */,
+				2537DAC21D2D9F2F00FAA8A8 /* fLightingShader.glsl */,
+			);
+			name = "Physical Lighting";
+			sourceTree = "<group>";
+		};
+		2537DAB41D2D9EBE00FAA8A8 /* Normal Mapper */ = {
+			isa = PBXGroup;
+			children = (
+				2537DAC61D2D9F4300FAA8A8 /* fShader.glsl */,
+				2537DAC71D2D9F4300FAA8A8 /* vShader.glsl */,
+				2537DAC81D2D9F4300FAA8A8 /* gShader.glsl */,
+			);
+			name = "Normal Mapper";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,8 +207,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2537DA9E1D2D9CD700FAA8A8 /* Assets.xcassets in Resources */,
-				2537DAA11D2D9CD800FAA8A8 /* MainMenu.xib in Resources */,
+				2537DAC41D2D9F2F00FAA8A8 /* fLightingShader.glsl in Resources */,
+				2537DACA1D2D9F4300FAA8A8 /* vShader.glsl in Resources */,
+				2537DAC91D2D9F4300FAA8A8 /* fShader.glsl in Resources */,
+				2537DAC51D2D9F2F00FAA8A8 /* vLightingShader.glsl in Resources */,
+				2537DACB1D2D9F4300FAA8A8 /* gShader.glsl in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,23 +222,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2537DA9C1D2D9CD700FAA8A8 /* main.m in Sources */,
-				2537DA991D2D9CD700FAA8A8 /* AppDelegate.m in Sources */,
+				2537DAAF1D2D9EA900FAA8A8 /* Cloth.cpp in Sources */,
+				2537DAC01D2D9F1700FAA8A8 /* Texture.cpp in Sources */,
+				2537DAB21D2D9EA900FAA8A8 /* Particle.cpp in Sources */,
+				2537DAB01D2D9EA900FAA8A8 /* LargeVM.cpp in Sources */,
+				2537DA9C1D2D9CD700FAA8A8 /* main.cpp in Sources */,
+				2537DABF1D2D9F1700FAA8A8 /* Shader.cpp in Sources */,
+				2537DAC11D2D9F1700FAA8A8 /* TrackBall.cpp in Sources */,
+				2537DAB11D2D9EA900FAA8A8 /* ObjectMesh.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		2537DA9F1D2D9CD800FAA8A8 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2537DAA01D2D9CD800FAA8A8 /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		2537DAA31D2D9CD800FAA8A8 /* Debug */ = {
