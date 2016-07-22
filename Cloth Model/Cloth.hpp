@@ -28,7 +28,6 @@
 #include "Shader.hpp"
 
 
-// PP MACROS
 #define GD -0.400f
 #define KSST 10.00f
 #define KSSH 5.00f
