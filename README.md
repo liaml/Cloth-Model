@@ -16,7 +16,7 @@ THIS CODE SUPPORTS THE 08341 FYDP THESIS, (LEES, 2016), 'CLOTH MODELLING', SUBMI
   - Symplectic Euler
   - IMplicit-EXplicit IMEX solution
   - Implicit Backward Euler :
-    - Using a Congugate Gradient Solver
+    - Using a Conjugate Gradient Solver
     - Using a Gradient Descent Solver
   - Position Based Verlet
 
